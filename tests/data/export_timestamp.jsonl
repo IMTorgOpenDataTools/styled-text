@@ -1,0 +1,2 @@
+{"id": 58411, "data": "2017-12-16 03:02:35.500000    (Bob Iger): This is some basic text.\n2017-12-17 03:02:35.500000    (Mikey Mouse): This is also some basic text.", "label": [[55, 65, "True"], [120, 124, "True"]], "dialogue": "a"}
+{"id": 58412, "data": "2017-12-18 03:02:35.500000    (Mikey Mouse): This is much more basic text.\n2017-12-19 03:02:35.500000    (Bob Iger): This is little text.", "label": [[53, 62, "True"], [125, 131, "True"]], "dialogue": "b"}
