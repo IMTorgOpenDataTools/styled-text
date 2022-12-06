@@ -36,7 +36,7 @@ For detailed instructions, see `./tests/doccano_workflow.md`.
 
 ## Install
 
-TODO
+`pip install ./styled_text/.`
 
 
 ## Test

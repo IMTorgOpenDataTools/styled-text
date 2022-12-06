@@ -106,7 +106,7 @@ class StyledText:
             #bold_blue = workbook.add_format({'color': '#005fcf', 'bold': True})
 
             text = result_obj[text_column]
-            highlighted_index = result_obj['label']  
+            highlighted_index = copy.deepcopy(result_obj['label'])  
 
             highlight_tag = bold_red
             background_tag = normal
@@ -114,6 +114,9 @@ class StyledText:
             #prepare indices
             mod_highlight_index = []
             l = len(highlighted_index)
+            if l<1:
+                highlighted_index.append([0,1,None])
+                l=1
             for idx, item in enumerate(highlighted_index):
                 if idx==0 and idx==l-1:
                     start=0
@@ -155,6 +158,7 @@ class StyledText:
 
 
         #prerequisites
+        df = df.copy(deep=True)
         col_list = df.columns.tolist()
         output_file = Path(output_path)
         writer = pd.ExcelWriter(output_file, engine='xlsxwriter')

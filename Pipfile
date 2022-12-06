@@ -8,8 +8,8 @@ ipython = "*"
 pandas = "*"
 xlsxwriter = "*"
 pytest = "*"
-doccano = "*"
 doccano-client = "*"
+doccano = "*"
 
 [dev-packages]
 
