@@ -101,8 +101,8 @@ class StyledText:
         def transform(workbook, result_obj, text_column='data'):
             """Transform the text record's result_obj into a list of Format(ted) text.
             """
-            normal = workbook.add_format({'color': '#737880'})
-            bold_red = workbook.add_format({'color': '#b41b1b', 'bold': True})
+            normal = workbook.add_format({'font_color': '#737880'})
+            bold_red = workbook.add_format({'font_color': '#b41b1b', 'bold': True})
             #bold_blue = workbook.add_format({'color': '#005fcf', 'bold': True})
 
             text = result_obj[text_column]

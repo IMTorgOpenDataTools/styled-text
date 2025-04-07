@@ -7,15 +7,15 @@
 
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-    "python.testing.pytestPath": "/home/vscode/.local/share/virtualenvs/Styled_Excel_Output-kD8dx7r0/bin/pytest",
-    "python.pipenvPath": "/home/vscode/.local/share/virtualenvs/Styled_Excel_Output-kD8dx7r0/bin/python",
+    "python.testing.pytestPath": "/home/vscode/.local/share/virtualenvs/styled-text-output-RGhWBfm9/bin/pytest",
+    "python.pipenvPath": "/home/vscode/.local/share/virtualenvs/styled-text-output-RGhWBfm9/bin/python",
 
 
-    "python.linting.pylintPath": "/home/vscode/.local/share/virtualenvs/Styled_Excel_Output-kD8dx7r0/bin/python",
-    "python.autoComplete.extraPaths": ["/home/vscode/.local/share/virtualenvs/Styled_Excel_Output-kD8dx7r0/bin/python"],
-    "python.defaultInterpreterPath": "/home/vscode/.local/share/virtualenvs/Styled_Excel_Output-kD8dx7r0/bin/python",
+    "python.linting.pylintPath": "/home/vscode/.local/share/virtualenvs/styled-text-output-RGhWBfm9/bin/python",
+    "python.autoComplete.extraPaths": ["/home/vscode/.local/share/virtualenvs/styled-text-output-RGhWBfm9/bin/python"],
+    "python.defaultInterpreterPath": "/home/vscode/.local/share/virtualenvs/styled-text-output-RGhWBfm9/bin/python",
     "python.analysis.extraPaths": [
-        "/home/vscode/.local/share/virtualenvs/Styled_Excel_Output-kD8dx7r0/"
+        "/home/vscode/.local/share/virtualenvs/styled-text-output-RGhWBfm9/"
     ],
     "files.exclude": {
         "**/.git": true,

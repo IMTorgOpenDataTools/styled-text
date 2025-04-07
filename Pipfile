@@ -5,14 +5,14 @@ name = "pypi"
 
 [packages]
 ipython = "*"
-pandas = "*"
 xlsxwriter = "*"
 pytest = "*"
 doccano-client = "*"
 doccano = "*"
+pandas = "*"
+numpy = "==1.26.4"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
-python_full_version = "3.10.8"
+python_version = "3.12"
