@@ -208,5 +208,5 @@ class StyledText:
                         pass
 
         # Close the Pandas Excel writer and output the Excel file.
-        writer.save()
+        writer.close()
         return transform_results
